@@ -10,7 +10,7 @@ class IrcCatListener(Component):
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.connect(("localhost",12345))
             s.send("Trac: ")
-	    s.send("ticket #%i (http://trac.snailbyte.com/ayourta/ticket/%i) %s" % (ticketid, ticketid, text))
+	    s.send("ticket #%i (http://your.tracserver.com/trac_project_name/ticket/%i) %s" % (ticketid, ticketid, text))
             s.close()
         except:
 	    print "Unexpected error:", sys.exc_info()[0]
