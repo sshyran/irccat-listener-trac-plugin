@@ -10,7 +10,7 @@ Once you have setuptools, run
 python setup.py bdist_egg
 }}}
 
-You will end up with various directories, one of the being 'dist'. From dist copy the file
+You will end up with various directories, one of them being 'dist'. From dist copy the file
 
 {{{
 TracIrcCatListener-0.1-pyX.X.egg
