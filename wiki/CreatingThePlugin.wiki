@@ -4,7 +4,7 @@
 
 First of all, you need setuptools installed. For information on how to install it, see [http://trac.edgewall.org/wiki/TracPlugins the Trac plugin docs].
 
-Once you have setuptools, run
+Once you have setuptools installed, download the code onto your machine and run
 
 {{{
 python setup.py bdist_egg
